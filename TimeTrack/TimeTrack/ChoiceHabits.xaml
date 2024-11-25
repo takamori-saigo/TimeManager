@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             BackgroundImageSource="homePage.png"
+             x:Class="TimeTrack.ChoiceHabits">
+    <StackLayout>
+        <Grid>
+            <StackLayout>
+                <Button x:Name="accountButton" Clicked="accountButton_Clicked" ImageSource="accountLogo.png" Margin="320, -10, 15, 0" HeightRequest="80" BackgroundColor="Transparent"/>
+            </StackLayout>
+            <Frame HeightRequest="900" Margin="0, 60, 0, -100" CornerRadius="30">
+                <StackLayout>
+                    <Label Text="Новая привчка" TextColor="Gray" FontSize="25" FontAttributes="Bold" HorizontalTextAlignment="Center" Margin="0, 0, 0, 25"/>
+                    <Button x:Name="backButton" Clicked="backButton_Clicked" ImageSource="back.png" Margin="-10,-70,300,0" BackgroundColor="Transparent"/>
+                    <Frame BackgroundColor="Transparent">
+                        <FlexLayout>
+                            <Button WidthRequest="300" Margin="30,0" BackgroundColor="Transparent"/>
+                            <Image Source="waterBlance.png" Margin="-360,0,0,0"/>
+                            <Label Text="Баланс воды" Margin="15,8,0,0" FontSize="20" FontAttributes="Bold"/>
+                        </FlexLayout>
+                    </Frame>
+                    <Frame BackgroundColor="Transparent" Margin="0,-40,0,0">
+                        <FlexLayout>
+                            <Button WidthRequest="300" Margin="30,0" BackgroundColor="Transparent"/>
+                            <Image Source="charging.png" Margin="-360,0,0,0"/>
+                            <Label Text="Делать зарядку" Margin="15,8,0,0" FontSize="20" FontAttributes="Bold"/>
+                        </FlexLayout>
+                    </Frame>
+                    <Frame BackgroundColor="Transparent" Margin="0,-40,0,0">
+                        <FlexLayout>
+                            <Button WidthRequest="300" Margin="30,0" BackgroundColor="Transparent"/>
+                            <Image Source="drinkVitamins.png" Margin="-360,0,0,0"/>
+                            <Label Text="Выпить витамины" Margin="15,8,0,0" FontSize="20" FontAttributes="Bold"/>
+                        </FlexLayout>
+                    </Frame>
+                    <Frame BackgroundColor="Transparent" Margin="0,-40,0,0">
+                        <FlexLayout>
+                            <Button WidthRequest="300" Margin="30,0" BackgroundColor="Transparent"/>
+                            <Image Source="readBook.png" Margin="-360,0,0,0"/>
+                            <Label Text="Читать книгу" Margin="15,8,0,0" FontSize="20" FontAttributes="Bold"/>
+                        </FlexLayout>
+                    </Frame>
+                    <Frame BackgroundColor="Transparent" Margin="0,-40,0,0">
+                        <FlexLayout>
+                            <Button WidthRequest="300" Margin="30,0" BackgroundColor="Transparent"/>
+                            <Image Source="learning.png" Margin="-360,0,0,0"/>
+                            <Label Text="Учить язык" Margin="15,8,0,0" FontSize="20" FontAttributes="Bold"/>
+                        </FlexLayout>
+                    </Frame>
+                    <Frame BackgroundColor="Transparent" Margin="0,-40,0,0">
+                        <FlexLayout>
+                            <Button WidthRequest="300" Margin="30,0" BackgroundColor="Transparent"/>
+                            <Image Source="wakeUpEarly.png" Margin="-360,0,0,0"/>
+                            <Label Text="Пораньше вставать" Margin="15,8,0,0" FontSize="20" FontAttributes="Bold"/>
+                        </FlexLayout>
+                    </Frame>
+                    <Frame BackgroundColor="Transparent" Margin="0,-40,0,0">
+                        <FlexLayout>
+                            <Button WidthRequest="300" Margin="30,0" BackgroundColor="Transparent"/>
+                            <Image Source="cleaning.png" Margin="-360,0,0,0"/>
+                            <Label Text="Уборка" Margin="15,8,0,0" FontSize="20" FontAttributes="Bold"/>
+                        </FlexLayout>
+                    </Frame>
+                    <Frame BackgroundColor="Transparent" Margin="0,-40,0,0">
+                        <FlexLayout>
+                            <Button WidthRequest="300" Margin="30,0" BackgroundColor="Transparent"/>
+                            <Image Source="running.png" Margin="-360,0,0,0"/>
+                            <Label Text="Пробежка" Margin="15,8,0,0" FontSize="20" FontAttributes="Bold"/>
+                        </FlexLayout>
+                    </Frame>
+                    <Frame BackgroundColor="Transparent" Margin="0,-40,0,0">
+                        <FlexLayout>
+                            <Button WidthRequest="300" Margin="30,0" BackgroundColor="Transparent"/>
+                            <Image Source="stepTracker.png" Margin="-360,0,0,0"/>
+                            <Label Text="Трекер шагов" Margin="15,8,0,0" FontSize="20" FontAttributes="Bold"/>
+                        </FlexLayout>
+                    </Frame>
+                    <Frame BackgroundColor="Transparent" Margin="0,-40,0,0">
+                        <FlexLayout>
+                            <Button WidthRequest="300" Margin="30,0" BackgroundColor="Transparent"/>
+                            <Image Source="sliping.png" Margin="-360,0,0,0"/>
+                            <Label Text="Спать 8 часов" Margin="15,8,0,0" FontSize="20" FontAttributes="Bold"/>
+                        </FlexLayout>
+                    </Frame>
+                    <Frame BackgroundColor="Transparent" Margin="0,-40,0,0">
+                        <FlexLayout>
+                            <Button WidthRequest="300" Margin="30,0" BackgroundColor="Transparent"/>
+                            <Image Source="meditate.png" Margin="-360,0,0,0"/>
+                            <Label Text="Медитировать" Margin="15,8,0,0" FontSize="20" FontAttributes="Bold"/>
+                        </FlexLayout>
+                    </Frame>
+                    <Image Source="next.png" Margin="275,-595,0,0"/>
+                    <Image Source="next.png" Margin="275, 35,0,0"/>
+                    <Image Source="next.png" Margin="275, 35,0,0"/>
+                    <Image Source="next.png" Margin="275, 35,0,0"/>
+                    <Image Source="next.png" Margin="275, 30,0,0"/>
+                    <Image Source="next.png" Margin="275, 35,0,0"/>
+                    <Image Source="next.png" Margin="275, 35,0,0"/>
+                    <Image Source="next.png" Margin="275, 35,0,0"/>
+                    <Image Source="next.png" Margin="275, 30,0,0"/>
+                    <Image Source="next.png" Margin="275, 35,0,0"/>
+                    <Image Source="next.png" Margin="275, 35,0,0"/>
+                </StackLayout>
+            </Frame>
+
+        </Grid>
+    </StackLayout>
+    
+</ContentPage>

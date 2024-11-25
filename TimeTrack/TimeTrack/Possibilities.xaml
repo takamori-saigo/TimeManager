@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TimeTrack.Possibilities">
+    <StackLayout>
+        <Grid>
+            <ScrollView>
+                <StackLayout Margin="0,0,0,0">
+                    <Image Source="New1" Aspect="Fill" Margin="0,0,0,0"/>
+                    <Label Text="Что умеет наше приложение" FontSize="35" FontAttributes="Bold" TextColor="White" Margin="20,-760, 0,0"/>
+                    <Image Source="New2" Aspect="Fill" Margin="0,650,0,0"/>
+                    <Label Text="Постановка" FontSize="35" FontAttributes="Bold" TextColor="White" Margin="20,-760,0,0"/>
+                    <Label Text="Задач" FontSize="35" FontAttributes="Bold" TextColor="White" Margin="20,-15,0,0"/>
+                    <Image Source="New3" Aspect="Fill" Margin="0,650,0,0"/>
+                    <Label Text="Система" FontSize="35" FontAttributes="Bold" TextColor="White" Margin="20,-760, 0,0"/>
+                    <Label Text="Достижений" FontSize="35" FontAttributes="Bold" TextColor="White" Margin="20,-15,0,0"/>
+                    <Image Source="New4" Aspect="Fill" Margin="0,650,0,0"/>
+                    <Label Text="Формирование" FontSize="35" FontAttributes="Bold" TextColor="White" Margin="20,-760, 0,0"/>
+                    <Label Text="Привычек" FontSize="35" FontAttributes="Bold" TextColor="White" Margin="20,-15,0,0"/>
+                    <BoxView Margin="0,310"/>
+                </StackLayout>
+            </ScrollView>
+            <Button x:Name="skipButton" Clicked="skipButton_Clicked" Text="Пропустить" Margin="250,10,0,740" BackgroundColor="Transparent" FontAttributes="Bold" TextColor="White"/>
+        </Grid>
+    </StackLayout>
+</ContentPage>
